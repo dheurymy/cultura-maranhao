@@ -65,7 +65,7 @@ export default function Sobre() {
 
                </div>
             </div>
-            <div className={styleSobre.card}>
+            <div className={styleSobre.card} id={styleSobre.cardDheurymy} >
                <div className={styleSobre.painel}>
                   <img src={fotoRycherd} alt="" className={styleSobre.image} />
                   <div className={styleSobre.links}>

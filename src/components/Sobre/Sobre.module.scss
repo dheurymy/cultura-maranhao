@@ -64,6 +64,8 @@
    
 }
 
+
+
 .painel {
    display: flex;
    flex-direction: row;
@@ -136,10 +138,14 @@
 
 @media screen and (max-width: 1024px) {
    .about {
-      flex-direction: column;
+      flex-direction: column-reverse;
    }
 
    .card {
       width: 100%;
+   }
+
+   #cardDheurymy {
+      order: 1;
    }
 }
