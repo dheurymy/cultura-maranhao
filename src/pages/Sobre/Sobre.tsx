@@ -8,6 +8,7 @@ import Festas from '../../components/Festas';
 import PontosTuristicos from '../../components/PontosTuristicos';
 import Culinaria from '../../components/Culinaria';
 import Artesanato from '../../components/Artesanato';
+import Sobre from '../../components/Sobre';
 
 import style from './App.module.scss';
 function PageSobre() {
@@ -15,7 +16,7 @@ function PageSobre() {
       <div className={style.AppStyle}>
          <Header />
          <Navbar />
-         
+         <Sobre />
          <Footer />
       </div>
    )

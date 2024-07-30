@@ -1,0 +1,102 @@
+.about {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+
+   width: 100%;
+
+   margin-top: 1rem;
+
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   gap: 1rem;
+
+   width: 32%;
+
+   padding: 1rem;
+
+   background-color: var(--cor-nav);
+
+   border: 2px solid var(--cor-texto-alerta);
+   border-radius: 1rem;
+
+   box-shadow: 2px 2px 3px 3px var(--cor-texto-alerta);
+}
+
+.painel {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+
+   width: 95%;
+   height: auto;
+
+   gap: 5%;
+}
+
+.image {
+   max-height: 25vh;
+   width: auto;
+
+   border: 2px solid var(--cor-texto-alerta);
+   border-radius: 50%;
+   margin: 0 1rem 0 1rem;
+
+   
+}
+
+.links {
+   display: flex;
+   flex-direction: column;
+
+   align-items: center;
+   justify-content: center;
+
+   width: 15%;
+   max-height: 25vh;
+}
+
+.links > a > img {
+   max-height: 7vh;
+}
+
+.title {
+   font-family: "Volkhov", sans-serif;
+   font-size: 1.5rem;
+   font-weight: 800;
+   color: var(--cor-texto-alerta);
+}
+
+.legend {
+   font-family: "Poppins", serif;
+   font-size: 0.8em;
+   text-align: justify;
+   line-height: 1.2em;
+
+   width: 95%;
+}
+
+.badges {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+
+   width: 95%;
+
+   gap: 1em;
+}
+
+.bagdes > img {
+   max-width: 35px;
+}

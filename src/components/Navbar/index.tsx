@@ -7,6 +7,7 @@ import Festas from '../Festas';
 import PontosTuristicos from '../PontosTuristicos';
 import Culinaria from '../Culinaria';
 import Artesanato from '../Artesanato';
+import Sobre from '../Sobre';
 
 
 import home from '../../assets/images/Home.svg';
@@ -81,7 +82,7 @@ export default function Navbar() {
         <Route path="/culinaria" element={<Culinaria />} />
         <Route path="/artesanato" element={<Artesanato />} />
         <Route path="/pontos-turisticos" element={<PontosTuristicos />} />
-        
+        <Route path="/sobre" element={<Sobre />} />
         
       </Routes>
 
